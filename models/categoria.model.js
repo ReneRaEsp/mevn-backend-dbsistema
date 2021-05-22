@@ -1,4 +1,5 @@
-import mongose,{Schema} from 'mongoose';
+import mongoose,{Schema} from 'mongoose';
+
 
 const categoriasSchema =  new Schema({
     nombre:{type:String, maxlength:50, unique:true, required:true},
