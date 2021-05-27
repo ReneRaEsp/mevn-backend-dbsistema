@@ -1,7 +1,7 @@
-import mongoose, {Schema} from 'mongose'
+import mongoose, {Schema} from 'mongoose'
 const usuarioSchema = new Schema({
 	rol: {type:String, maxlength:30, required:true},
-	nombre: {ype:String, maxlength:50, unique:true, required:true},
+	nombre: {type:String, maxlength:50, unique:true, required:true},
 	tipo_documento: {type:String, maxlength:20},
 	num_documento: {type:String, maxlength:20},
 	direccion: {type:String, maxlength:70},
