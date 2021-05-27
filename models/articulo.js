@@ -1,5 +1,5 @@
 import mongoose,{Schema} from 'mongoose'
-const articulosSchema = new Schema({
+const articuloSchema = new Schema({
 	categoria: {type: Schema.ObjectId, ref:'categoria'},
 	codigo: {type: String, maxlength:64},
 	nombre: {type: String,  maxlength:50},

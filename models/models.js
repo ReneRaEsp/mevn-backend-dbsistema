@@ -1,8 +1,9 @@
 import Categoria from './categoria.model'
-
-import Articulo form './articulo.js'
+import Articulo from './articulo.js'
+import Usuario from './usuario'
 
 export default {
     Categoria,
-    Articulo
+    Articulo,
+    Usuario
 }
