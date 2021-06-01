@@ -5,7 +5,7 @@ const router=routerx();
 
 router.post('/add', articuloController.add)
 
-router.get('/query', articuloController.add)
+router.get('/query', articuloController.query)
 
 router.get('/list', articuloController.list)
 
