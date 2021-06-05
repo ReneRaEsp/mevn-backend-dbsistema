@@ -9,9 +9,9 @@ async function checkToken(token){
 	} catch(e){
 		return false
 	}
-	const user = await models.Usuario.findOne({_id:__id, estado:1})
+	const user = await models.Usuario.findOne({_id:__id,estado:1})
 	if (user){
-		const token =  jwt.sing(_id:__id,'clavesecreta',{expiresIn:'1d'})
+		const token =  jwt.sign({_id:__id},'clavesecreta',{expiresIn:'1d'})
 		return {token,rol:user.rol}
 	} else {
 		return false
