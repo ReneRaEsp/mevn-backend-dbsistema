@@ -51,7 +51,7 @@ export default {
             const reg = await models.Usuario.findByIdAndUpdate(
                 {_id:req.body._id},{rol:req.body.rol, nombre:req.body.nombre,
 			tipo_documento:req.body.tipo_documento, num_documento: req.body.num_documento, direccion: req.body.direccion, 
-		telefono: req.body.telefono, email: req.bosy.email, password: req.body.password}
+		telefono: req.body.telefono, email: req.body.email, password: req.body.password}
                 )
                 res.status(200).json(reg)
         } catch(e){
