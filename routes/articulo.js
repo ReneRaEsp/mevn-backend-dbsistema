@@ -4,9 +4,12 @@ import auth from '../middlewares/auth'
 
 const router=routerx();
 
+
 router.post('/add', auth.verifyAlmacenero, articuloController.add)
 
 router.get('/query', auth.verifyAlmacenero, articuloController.query)
+
+router.get('/query-codigo', auth.verifyUsuario, articuloController.queryCodigo)
 
 router.get('/list', auth.verifyAlmacenero, articuloController.list)
 
@@ -17,5 +20,6 @@ router.delete('/remove', auth.verifyAlmacenero, articuloController.remove)
 router.put('/activate', auth.verifyAlmacenero, articuloController.activate)
 
 router.put('/deactivate', auth.verifyAlmacenero, articuloController.deactivate)
+
 
 export default router;
