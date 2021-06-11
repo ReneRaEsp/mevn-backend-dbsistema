@@ -9,6 +9,10 @@ router.post('/add', auth.verifyAlmacenero, ingresoController.add)
 router.get('/query', auth.verifyAlmacenero, ingresoController.query)
 
 router.get('/list', auth.verifyAlmacenero, ingresoController.list)
+
+router.get('/grafico-doce-meses', auth.verifyUsuario, ingresoController.graficoDoceMeses)
+
+router.get('/consulta-rango-fechas', auth.verifyUsuario, ingresoController.consultaFechas)
 /*
 router.put('/update', auth.verifyAlmacenero, ingresoController.update)
 
