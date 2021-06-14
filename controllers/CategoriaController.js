@@ -13,7 +13,7 @@ export default {
     },
     query:async (req,res,next) =>{
         try {
-            const reg = await models.Categoria.findOne({_id:req.query._id})
+            const reg = await models.Categoria.findOne({'_id':req.query._id})
             if(!reg){
                 res.status(404).send({
                     message: 'El registro no existe'
