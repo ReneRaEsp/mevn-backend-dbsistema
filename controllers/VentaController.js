@@ -97,7 +97,7 @@ export default {
 	        detalles.map(function(x){
 		        disminuirStock(x._id,x.cantidad)
 	        })
-            req.status(200).json(reg)
+            res.status(200).json(reg)
         } catch(e){
             res.status(500).send({
                 message:'Ocurrio un error'
@@ -112,7 +112,7 @@ export default {
 	        detalles.map(function(x){
 		        aumentarStock(x._id,x.cantidad)
 	        })
-            req.status(200).json(reg)
+            res.status(200).json(reg)
         } catch(e){
             res.status(500).send({
                 message:'Ocurrio un error'

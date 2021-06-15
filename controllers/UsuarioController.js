@@ -75,7 +75,7 @@ export default {
     activate:async (req,res,next) =>{
         try {
             const reg = await models.Usuario.findByIdAndUpdate({_id:req.body._id},{estado:1})
-            req.status(200).json(reg)
+            res.status(200).json(reg)
         } catch(e){
             res.status(500).send({
                 message:'Ocurrio un error'
@@ -86,7 +86,7 @@ export default {
     deactivate:async (req,res,next) =>{
         try {
             const reg = await models.Usuario.findByIdAndUpdate({_id:req.body._id},{estado:0})
-            req.status(200).json(reg)
+            res.status(200).json(reg)
         } catch(e){
             res.status(500).send({
                 message:'Ocurrio un error'
