@@ -49,8 +49,7 @@ export default {
 	    const reg0 = await models.Usuario.findOne({_id:req.body._id})
 	    pas != reg0 ? req.body.password = await bcrypt.hash(req.body.password, 10) : console.log('no se encriptara password')
             const reg = await models.Usuario.findByIdAndUpdate(
-                {_id:req.body._id},{rol:req.body.rol, nombre:req.body.nombre,
-			tipo_documento:req.body.tipo_documento, num_documento: req.body.num_documento, direccion: req.body.direccion, 
+                {_id:req.body._id},{rol:req.body.rol, nombre:req.body.nombre, num_documento: req.body.num_documento, direccion: req.body.direccion, 
 		telefono: req.body.telefono, email: req.body.email, password: req.body.password}
                 )
                 res.status(200).json(reg)
