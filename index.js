@@ -8,8 +8,8 @@ import router from './routes'
 //const cors=require('cors')
 //Conexion a la base de datos MongoDB
 mongoose.Promise=global.Promise
-//const dbUrl = 'mongodb://localhost/dbsistema'
-const dbUrl = 'mongodb://127.0.0.1:27017/dbsistema'
+const dbUrl = 'mongodb://localhost/dbsistema'
+//const dbUrl = 'mongodb://127.0.0.1:27017/dbsistema'
 
 mongoose.connect(dbUrl, {useCreateIndex:true, useNewUrlParser: true, useUnifiedTopology: true})
 .then(mongoose => console.log(`conectado a la BD en el puerto 27017`))
