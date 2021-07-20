@@ -127,8 +127,8 @@ export default {
                         {
                             $group:{
                                 _id:{
-                                    mes:{$month:"$createdAt"},
-                                    year:{$year:"$createdAt"}
+                                    mes:{$month: "$createdAt"},
+                                    year:{$year: "$createdAt"}
                                 },
                                 total:{$sum:"$total"},
                                 numero:{$sum:1}

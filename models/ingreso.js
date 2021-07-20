@@ -26,7 +26,7 @@ const ingresoSchema = new Schema ({
 		}
 	}],
 	estado:{type:Number, default:1},
-	cretedAt: {type: Date, default: Date.now}
+	createdAt: {type: Date, default: Date.now}
 })
 const Ingreso = mongoose.model('ingreso', ingresoSchema)
 export default Ingreso
