@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.dbb20c8a9a5ed885fb14219011ee464c.js"
+  "precache-manifest.2d42ff958c225ff4d892b657e1fcad11.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "Sistema-de-compras-y-ventas"});

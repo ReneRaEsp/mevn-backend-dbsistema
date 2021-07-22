@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "css/almacen-categorias.c8233c45.css"
   },
   {
-    "revision": "a59e7e9c4768e1746d86",
+    "revision": "7f7171ca8fcdd6bab876",
     "url": "css/app.e80ffabf.css"
   },
   {
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "css/editar-clientes.6e9c0829.css"
   },
   {
-    "revision": "5fb921b0505bff2fa462",
-    "url": "css/editar-ingresos.ccbe33e7.css"
+    "revision": "e615b78e8c91b66e3626",
+    "url": "css/editar-ingresos.931b35f3.css"
   },
   {
     "revision": "847b0e32e4578248fd0c",
@@ -68,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "css/editar-usuario.7973b39d.css"
   },
   {
-    "revision": "597eea5fd8442403553e",
-    "url": "css/editar-ventas.908f7684.css"
+    "revision": "fc69c28098d71594738c",
+    "url": "css/editar-ventas.3fabba2e.css"
   },
   {
     "revision": "7a3225f649d8b5ec448e",
@@ -100,7 +100,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/logo.82b9c7a5.png"
   },
   {
-    "revision": "4e05592a3db2dfdd277718f4a05e9d7a",
+    "revision": "affd7583bbc2468c6dc6d99a12f176f2",
     "url": "index.html"
   },
   {
@@ -124,8 +124,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/almacen-categorias.eb6e210c.js"
   },
   {
-    "revision": "a59e7e9c4768e1746d86",
-    "url": "js/app.8e3226a0.js"
+    "revision": "7f7171ca8fcdd6bab876",
+    "url": "js/app.dcdb532c.js"
   },
   {
     "revision": "f8fdb7bf7733c14dd3b9",
@@ -164,8 +164,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/editar-clientes.4b65da8d.js"
   },
   {
-    "revision": "5fb921b0505bff2fa462",
-    "url": "js/editar-ingresos.ebea5dfc.js"
+    "revision": "e615b78e8c91b66e3626",
+    "url": "js/editar-ingresos.570e584f.js"
   },
   {
     "revision": "847b0e32e4578248fd0c",
@@ -176,8 +176,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/editar-usuario.0d454d18.js"
   },
   {
-    "revision": "597eea5fd8442403553e",
-    "url": "js/editar-ventas.3947b655.js"
+    "revision": "fc69c28098d71594738c",
+    "url": "js/editar-ventas.080e8efb.js"
   },
   {
     "revision": "7a3225f649d8b5ec448e",
