@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "css/almacen-categorias.c8233c45.css"
   },
   {
-    "revision": "7f7171ca8fcdd6bab876",
+    "revision": "82b84026754530152687",
     "url": "css/app.e80ffabf.css"
   },
   {
@@ -80,8 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "css/inicio.664e0990.css"
   },
   {
-    "revision": "d6a1646c645a4794f81b",
-    "url": "css/login.7d6a19be.css"
+    "revision": "e70fcf3be375c773f864",
+    "url": "css/login.16626274.css"
   },
   {
     "revision": "ffdc2f47b0a8a96d8378",
@@ -100,7 +100,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/logo.82b9c7a5.png"
   },
   {
-    "revision": "affd7583bbc2468c6dc6d99a12f176f2",
+    "revision": "7d89a9111aa37fff1700f9243a60a69f",
     "url": "index.html"
   },
   {
@@ -124,8 +124,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/almacen-categorias.eb6e210c.js"
   },
   {
-    "revision": "7f7171ca8fcdd6bab876",
-    "url": "js/app.dcdb532c.js"
+    "revision": "82b84026754530152687",
+    "url": "js/app.2410146e.js"
   },
   {
     "revision": "f8fdb7bf7733c14dd3b9",
@@ -188,8 +188,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/inicio.bc07e2f1.js"
   },
   {
-    "revision": "d6a1646c645a4794f81b",
-    "url": "js/login.1bd1c619.js"
+    "revision": "e70fcf3be375c773f864",
+    "url": "js/login.9b73b813.js"
   },
   {
     "revision": "ffdc2f47b0a8a96d8378",
