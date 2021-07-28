@@ -1,4 +1,4 @@
-import mongoose,{Schema} from 'mongoose'
+import mongoose,{Schema} from 'mongoose';
 const articuloSchema = new Schema({
 	categoria: {type: Schema.ObjectId, ref:'categoria'},
 	codigo: {type: String, maxlength:64},
@@ -8,6 +8,6 @@ const articuloSchema = new Schema({
 	stock:{type:Number, required:true},
 	estado: {type:Number, default:1},
 	createdAt:{type:Date, default:Date.now }
-})
-const Articulo = mongoose.model('articulo',articuloSchema)
-export default Articulo
+});
+const Articulo = mongoose.model('articulo',articuloSchema);
+export default Articulo;
