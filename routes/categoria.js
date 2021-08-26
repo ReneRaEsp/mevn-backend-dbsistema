@@ -1,24 +1,25 @@
-import routerx from 'express-promise-router'
-import categoriaController from '../controllers/CategoriaController'
-import auth from '../middlewares/auth'
+import routerx from "express-promise-router";
+import categoriaController from "../controllers/CategoriaController";
+import auth from "../middlewares/auth";
 
+const router = routerx();
 
-const router=routerx();
+router.post("/add", auth.verifyAlmacenero, categoriaController.add);
 
+router.get("/query", auth.verifyAlmacenero, categoriaController.query);
 
-router.post('/add', auth.verifyAlmacenero, categoriaController.add)
+router.get("/list", auth.verifyAlmacenero, categoriaController.list);
 
-router.get('/query', auth.verifyAlmacenero, categoriaController.query)
+router.put("/update", auth.verifyAlmacenero, categoriaController.update);
 
-router.get('/list', auth.verifyAlmacenero, categoriaController.list)
+router.delete("/remove", auth.verifyAlmacenero, categoriaController.remove);
 
-router.put('/update', auth.verifyAlmacenero, categoriaController.update)
+router.put("/activate", auth.verifyAlmacenero, categoriaController.activate);
 
-router.delete('/remove', auth.verifyAlmacenero, categoriaController.remove)
-
-router.put('/activate', auth.verifyAlmacenero, categoriaController.activate)
-
-router.put('/deactivate', auth.verifyAlmacenero,  categoriaController.deactivate)
-
+router.put(
+  "/deactivate",
+  auth.verifyAlmacenero,
+  categoriaController.deactivate
+);
 
 export default router;

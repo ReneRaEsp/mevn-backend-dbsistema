@@ -3,9 +3,8 @@ import morgan from "morgan";
 import cors from "cors";
 import mongoose from "mongoose";
 import router from "./routes";
-//const express = require('express')
-//const morgan = require('morgan')
-//const cors=require('cors')
+
+
 //Conexion a la base de datos MongoDB
 mongoose.Promise = global.Promise;
 //const dbUrl = 'mongodb://localhost/dbsistema';
@@ -18,7 +17,7 @@ mongoose
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
-  .then((mongoose) => console.log(`conectado a la BD en el puerto 27017`))
+  .then((mongoose) => console.log(`conectado a la BD en el puerto: ${mongoose}`))
   .catch((err) => console.log(err));
 
 const app = express();
