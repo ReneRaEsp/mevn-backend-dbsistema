@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.56297c028499d091783e81fde791fef2.js"
+  "precache-manifest.6895146a2afbbb2579da3e0060ee9c55.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "Sistema-de-compras-y-ventas"});
+workbox.core.setCacheNameDetails({prefix: "veterinaria-frontend"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
