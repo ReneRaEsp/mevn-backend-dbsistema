@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node index.js --exec"
+    "start": "babel-node index.js --exec",
+    "dev": "nodemon index.js --exec babel-node"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
     "babel-preset-stage-3": "^6.24.1",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
     "express": "^4.17.1",
     "express-promise-router": "^4.1.0",
     "jsonwebtoken": "^8.5.1",
